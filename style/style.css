@@ -1,0 +1,355 @@
+/* Balloons of Vermont Style */
+/* Created by Nicki Haylon */
+/* www.nickihaylon.com */
+
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+	height: 100%;
+	margin: 0 auto -150px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 150px; /* .push must be the same height as .footer */
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.logo{
+	float:left;
+	margin-right:10px;
+}
+.right-align{
+	text-align:right;
+}
+.clearAll{
+	clear:both;
+}
+.noPadding{
+	padding:0;
+}
+.noPaddingLeft{
+	padding-left:0;
+}
+.noPaddingRight{
+	padding-right:0;
+}
+.tenTop{
+	margin-top:10px;
+}
+.btn-navy{
+	color:white;
+	background:#071437;
+}
+.btn-navy:hover{
+	color:white;
+	background:#9690A7;
+}
+.padding{
+	padding:30px 0;
+}
+.padding-small{
+	padding:10px 0;
+}
+.area-link{
+	background:#071437;
+	color:white;
+	text-align:center;
+	padding:20px;
+}
+.area-link:hover{
+	background:#FEF7BB;
+	color:#071437;
+}
+.area-text{
+	font-size:16px;
+	font-weight:lighter;
+}
+.area-bnb{
+	text-align:center;
+}
+.area-bnb-text{
+	text-align:left;
+	font-size:12px;
+	margin-top:5px;
+}
+.area-bnb-name{
+	font-family: 'Lobster', cursive;
+	color:#9690A7;
+	font-size:24px;
+}
+.area-bnb-name a{
+	color:#9690A7;
+}
+.area-activity{
+	text-align:center;
+}
+
+/* NAVBAR */
+
+.nav-right{
+	float: right;
+}
+.bovt-nav{
+	background-color:#071437;
+	border:0;
+	color:white;
+	border-radius:0;
+	padding-bottom:10px;
+	margin:0;
+}
+.bovt-nav a{
+	color:white;
+}
+.bovt-nav li a{
+	color:white;
+	font-size:16px;
+	padding-top:22px;
+}
+.bovt-nav li a:hover{
+	color:#9690A7;
+	background:none;
+}
+.bovt-nav li a:focus{
+	color:#9690A7;
+	background:none;
+}
+.bovt-nav .link-highlight{
+	color:#FEF7BB;
+	font-size:18px;
+}
+
+
+
+/*BODY*/
+
+.bovt-cta{
+	text-align:center;
+	margin:0 auto;
+	position:absolute;
+	width:100%;
+	top:100px;
+	right:auto;
+	left:auto;
+	z-index:100;
+	color:white;
+}
+.headline{
+	font-family: 'Lobster', cursive;
+	font-size:120px;
+	margin:10px auto;
+	text-align:center;
+	text-shadow: 0px 0px 40px black;
+}
+.headline-line{
+	border-top:2px solid white;
+	width:250px;
+	display:inline-block;
+	margin:0 20px;
+}
+.headline-circle{
+	padding:10px 0;
+	display:inline-block;
+}
+.headline-sub{
+	font-family: 'Lobster', cursive;
+	font-size:40px;
+	margin:10px 0 0;
+}
+.headline-text{
+	color:white;
+	font-size:32px;
+	width:40%;
+	margin:0 auto;
+	padding:10px 0 20px;
+	text-shadow: 0px 0px 20px black;
+	font-weight:lighter;
+}
+.bovt-carousel{
+	height:700px;
+}
+.bovt-carousel .carousel-inner{
+	max-height:100%;
+	overflow:hidden;
+}
+.squares{
+	text-align:center;
+	margin:-100px auto 0;
+}
+a .square1{
+	color:#071437;
+}
+a:hover .square1{
+	background:#9690A7;
+	color:white;
+	text-shadow:none;
+}
+a .square2{
+	color:#071437;
+}
+a:hover .square2{
+	background:#9690A7;
+	color:white;
+	text-shadow:none;
+}
+a .square3{
+	color:#071437;
+}
+a:hover .square3{
+	background:#9690A7;
+	color:white;
+	text-shadow:none;
+}
+.square1{
+	width:236px;
+	height:236px;
+	background-image: url(../images/square1.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+	position:relative;
+	display:inline-block;
+	padding-top:100px;
+	font-size:30px;
+	text-shadow: 0px 0px 10px white;
+	margin:0 5px;
+}
+.square2{
+	width:236px;
+	height:236px;
+	background-image: url(../images/square2.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+	position:relative;
+	display:inline-block;
+	padding-top:100px;
+	font-size:30px;
+	text-shadow: 0px 0px 10px white;
+	margin:0 5px;
+}
+.square3{
+	width:236px;
+	height:236px;
+	background-image: url(../images/square3.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+	position:relative;
+	display:inline-block;
+	padding-top:100px;
+	font-size:30px;
+	text-shadow: 0px 0px 10px white;
+	margin:0 5px;
+}
+.navy{
+	background:#071437;
+	padding-top:200px;
+	padding-bottom:600px;
+	margin:-200px auto 0;
+	color:white;
+	text-align:center;
+}
+.video{
+	text-align:center;
+	margin:0 20%;
+}
+.small-headline{
+	font-family: 'Lobster', cursive;
+	font-size:36px;
+	color:white;
+	margin:60px auto 10px;
+}
+.page-heading{
+	font-family: 'Lobster', cursive;
+	font-size:40px;
+	color:#071437;
+	margin:20px 0;
+}
+.grey-background{
+	background:#F4F4F4;
+	width:100%;
+	padding:0 10px 10px;
+	margin:10px 0;
+	color:#071437;
+}
+.mail-alert{
+	padding-top:100px;
+}
+.contact-section{
+	text-align: center;
+	background:#F4F4F4;
+	padding:20px;
+}
+.contact-text{
+	margin:10px 0;
+	font-size:16px;
+}
+a .contact-section{
+	color:black;
+}
+a .contact-section p{
+	text-decoration:none;
+}
+a:hover .contact-section{
+	background:#FEF7BB;
+}
+
+/*FOOTER*/
+.footer{
+	background-color:#9690A7;
+}
+.footer-logo{
+	padding:20px;
+}
+.footer-list{
+	padding:20px 0;
+}
+.footer-list p{
+	margin:0;
+}
+.footer-list p a{
+	color:white;
+	text-decoration:none;
+}
+.footer-list p a:hover{
+	color:#071437;
+	text-decoration:none;
+}
+.footer-info{
+	color:white;
+	font-size:24px;
+	padding-top:25px;
+}
+.footer-info p{
+	margin:0;
+}
+.footer-info a{
+	color:white;
+}
+.footer-info a:hover{
+	color:#FEF7BB;
+}
+.footer-icon{
+	margin-left:5px;
+}
+.footer-copyright{
+	font-weight:italic;
+	font-size:10px;
+	padding-top:15px;
+}
+
+
+
+
